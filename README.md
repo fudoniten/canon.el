@@ -80,6 +80,26 @@ An abandoned mill on the edge of town.
 (canon-get-ids-by-property "AKA" "Johnny")
 ```
 
+## Polymuse Integration
+
+Canon is a standalone package but is designed to work with [Polymuse](https://github.com/fudoniten/polymuse), an AI-powered writing assistant for Emacs. When used together, Polymuse can automatically access your canon file to:
+
+- Look up character and location details while reviewing your writing
+- Ensure consistency with established canon
+- Search entities by properties
+- Suggest updates to entity descriptions
+
+When `canon-mode` is active in a buffer with `polymuse-mode`, the following tools are automatically available to the LLM:
+
+- `canon-lookup-entity` - Look up entity definitions
+- `canon-list-entities` - List all entities in the canon
+- `canon-search-by-property` - Search entities by property values
+- `canon-suggest-update` - Suggest modifications (appended to a "Suggestions" section)
+
+All LLM tools are read-only or append-only for safety—the LLM cannot directly modify existing entity definitions.
+
+See the `examples/` directory for demonstrations of Canon used with Polymuse for both prose writing and code documentation.
+
 ## Configuration
 
 ```elisp

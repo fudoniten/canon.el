@@ -1,5 +1,5 @@
 #+TITLE: Story Canon - Example
-#+AUTHOR: Polymuse Example
+#+AUTHOR: Canon Example
 #+DATE: 2025-01-09
 
 This is an example canon file for prose writing. It demonstrates how to

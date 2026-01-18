@@ -8,15 +8,16 @@
 ;; Modified: November 22, 2025
 ;; Version: 0.0.1
 ;; Keywords: abbrev bib c calendar comm convenience data docs emulations extensions faces files frames games hardware help hypermedia i18n internal languages lisp local maint mail matching mouse multimedia news outlines processes terminals tex text tools unix vc wp
-;; Homepage: https://github.com/niten/canon
+;; Homepage: https://github.com/fudoniten/canon
 ;; Package-Requires: ((emacs "29.3"))
 ;;
 ;; This file is not part of GNU Emacs.
 ;;
 ;;; Commentary:
 ;;
-;; Canon is a tool for managing the "canon" of a creative work - characters,
-;; locations, events, and other entities that need to be tracked for consistency.
+;; Canon is a standalone tool for managing the "canon" of a creative work -
+;; characters, locations, events, and other entities that need to be tracked
+;; for consistency.
 ;;
 ;; It uses Org-mode files to store entity information in a structured format,
 ;; with top-level headings for entity types (e.g., "Characters", "Locations")
@@ -28,7 +29,7 @@
 ;; - Read and update entity information programmatically
 ;; - Search entities by property values
 ;; - Automatic type heading creation
-;; - Integration with Polymuse for AI-assisted writing
+;; - Optional integration with Polymuse for AI-assisted writing
 ;;
 ;; Usage:
 ;; 1. Enable canon-mode in your writing buffer
@@ -39,8 +40,9 @@
 ;;
 ;; Entities are stored with :ID: properties for reliable cross-referencing.
 ;;
-;; Polymuse Integration:
-;; When canon-mode is active in a buffer with polymuse-mode, the LLM
+;; Polymuse Integration (Optional):
+;; Canon is designed to work seamlessly with Polymuse, an AI-powered writing
+;; assistant. When canon-mode is active in a buffer with polymuse-mode, the LLM
 ;; automatically gains access to safe tools for:
 ;; - Looking up entity definitions (characters, locations, etc)
 ;; - Listing all entities in the canon

@@ -1,10 +1,14 @@
 #+TITLE: Project Canon - Example
-#+AUTHOR: Polymuse Example
+#+AUTHOR: Canon Example
 #+DATE: 2025-01-09
 
 This is an example canon file for code projects. It demonstrates how to
 track architecture decisions, style guides, and other project documentation
-that the LLM can reference during code review.
+that an LLM can reference during code review when used with Polymuse.
+
+This particular example documents the Polymuse project itself, showing how
+you might use Canon to maintain architecture and coding standards documentation
+for an Emacs package.
 
 * Architecture
 
