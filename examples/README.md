@@ -1,6 +1,8 @@
-# Polymuse Examples
+# Canon Examples with Polymuse
 
-This directory contains example files demonstrating Polymuse's canon integration and tool system.
+This directory contains example files demonstrating how to use Canon with [Polymuse](https://github.com/fudoniten/polymuse), an AI-powered writing assistant for Emacs.
+
+**Note:** Canon is a standalone package for managing creative work entities (characters, locations, architecture docs, etc.) using Org-mode files. While it works independently, these examples show its integration with Polymuse, which can automatically access and reference your canon files during AI-assisted writing and code review.
 
 ## Example Canon Files
 
